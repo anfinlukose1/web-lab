@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body style="font-family: Arial; margin: 40px;">
+    <!-- Main heading -->
+    <h2 style="text-align:center;">REGISTRATION FORM</h2>
+
+    <!-- User Information Section -->
+    <fieldset style="width: 600px; margin: auto; padding: 20px;">
+        <legend style="font-weight:bold;">User Information</legend>
+
+        <!-- Name input -->
+        <label style="display:inline-block; width:100px;">Name</label>
+        <select style="width:60px;">
+            <option>Mr.</option>
+            <option>Ms.</option>
+            <option>Mrs.</option>
+        </select>
+        <input type="text" style="width:200px;" placeholder="Enter your name"><br><br>
+
+        <!-- Phone input -->
+        <label style="display:inline-block; width:100px;">Phone</label>
+        <input type="text" style="width:270px;" placeholder="Enter your phone"><br><br>
+
+        <!-- Email input -->
+        <label style="display:inline-block; width:100px;">Email</label>
+        <input type="email" style="width:270px;" placeholder="Enter your email"><br><br>
+
+        <!-- Address -->
+        <label style="display:inline-block; width:100px; vertical-align:top;">Address</label>
+        <textarea style="width:270px; height:60px;" placeholder="Enter your address"></textarea><br><br>
+
+        <!-- Gender radio buttons -->
+        <label style="display:inline-block; width:100px;">Gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <!-- Languages known checkboxes -->
+        <label style="display:inline-block; width:100px; vertical-align:top;">Languages known</label>
+        <input type="checkbox"> English<br>
+        <span style="margin-left:100px;"></span><input type="checkbox"> Malayalam<br>
+        <span style="margin-left:100px;"></span><input type="checkbox"> Hindi<br>
+        <span style="margin-left:100px;"></span><input type="checkbox"> Other
+        <br><br>
+
+        <!-- Course dropdown -->
+        <label style="display:inline-block; width:100px;">Course</label>
+        <select style="width:200px;">
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>BSc CS</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+
+        <!-- Buttons -->
+        <div style="text-align:center;">
+            <input type="reset" value="Reset" style="padding:5px 10px;">
+            <input type="submit" value="Submit" style="padding:5px 10px;">
+        </div>
+    </fieldset>
+</body>
+</html>
