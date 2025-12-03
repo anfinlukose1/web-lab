@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title >styling css</title>
+<style>
+p{
+ color: red;
+ font-size:20px;
+}
+.box{
+ background-color:lightblue;
+ border:5px dotted;
+ padding:50px;
+ margin-left:10px;
+}
+
+.libox{
+ background-color:lightblue;
+ border:5px dotted;
+ padding:50px;
+ margin-top:50px;
+}
+
+</style>
+</head>
+<h1 align="center">CSS</h1>
+<body style="background-color: lightyellow;">
+<div class="box">
+<p>CSS, which stands for Cascading Style Sheets, is a style sheet language used in web development to control the presentation and formatting of HTML (Hypertext Markup Language) documents. It defines how elements should be rendered on screen, on paper, in speech, or on other media. </p>
+
+</div>
+<div class="libox">
+ <ul><li> Their are trhree ways of inserting a style sheet </li></ul>
+ <ol>
+  <li>Externel Css</li>
+  <li>Internel Css</li>
+  <li>Inline Css</li>
+ </ol>
+  <ul><li> Css selection</li></ul>
+ <ol>
+  <li>Css element selector</li>
+  <li>Css id selector</li>
+  <li>Css class selector</li>
+  <li>Css universal selector</li>
+ </ol>
+ 
+</div>
+
+<div class="tbox">
+<table border="3" style="background-color:skyblue;">
+<thead>
+<tr>
+ <td align="center" colspan="2">css properties</td>
+</tr>
+<tr>
+ <td rowspan="2">Css background</td>
+ <td>background-color</td>
+</tr>
+<tr>
+ <td>background image</td>
+</tr>
+<tr>
+ <td rowspan="4">css margine</td>
+ <td>margin top</td>
+</tr>
+<tr>
+ <td>margin right</td>
+</tr>
+<tr>
+ <td>margin bottom</td>
+</tr>
+<tr>
+ <td>margin left</td>
+</tr>
+</div>
+</body>
+</html>
+

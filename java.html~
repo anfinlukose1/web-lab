@@ -32,7 +32,7 @@
    document.writeln("<br>length of string : " + text.length);
    let text1=text.toUpperCase();
    let text2=text.toLowerCase();
-   let text3="  Lukose";
+   let text3="brother";
    let text4=text + text3;
    let text5=text4.replace("Anfin","Alphin");
    document.writeln("<br>string converted into uppercase : " + text1);

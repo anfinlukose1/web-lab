@@ -1,0 +1,6 @@
+<html>
+<head>
+<title>floating frame</title>
+</head>
+<iframe src="frame3.html" width="400"height="300" title="example sits"></iframe>
+</html>
